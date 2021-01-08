@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>The td rowspan attribute</h1><br>
+    <table>
+            <tr><th>Row One</th><th>Row Two</th><th>Row Three</th></tr>
+            <tr><td>One</td><td>Two</td><td>Three</td></tr>
+            <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+            <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+
+    </table>
+    
+    <table border = "1" bordercolor = "blue" bgcolor = "yellow"> 
+        <tr>
+            <th>Table Heading 1</th>
+            <th>Table heading 2</th>
+            <th>Table heading 3</th>    
+        </tr>
+        <tr> 
+            <td rowspan=2> Heading A</td>
+                <td>Row A Cell B</td>
+                <td>row A Cell C</td>
+        </tr>
+       <tr> 
+           <td rowspan=2></td>
+                <td>Row B Cell B</td>
+    
+            </tr>
+            </table>
+            <br><br><br>
+            <h1>The td colspan attribute</h1> <br>
+    <table border = "2" bordercolor = "red" bgcolor = "cyan" cellpadding="5" cellspacing="7">
+        <tr>
+            <th>
+               Table Heading 1
+            </th>
+            <th>Table Heading 2
+            </th>
+        </tr>
+        <tr>
+            <td>Column 1</td>
+            <td>Amount 1</td>
+          </tr>
+          <tr>
+            <td>Column 2</td>
+            <td>Amount 2</td>
+          </tr>
+          <tr>
+            <td colspan="2">Sum: Amount 1 + Amount 2</td>
+          </tr>
+        </table>
+        <a href="1.html">Back to Home</a>
+</body>
+</html>
